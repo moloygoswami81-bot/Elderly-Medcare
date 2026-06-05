@@ -1,0 +1,13 @@
+{
+  "name": "Elderly MedCare",
+  "description": "Simplified high-contrast medicine reminder with voice alerts, language support, caregiver dashboard, and persistent alarms for elderly persons.",
+  "requestFramePermissions": [
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
